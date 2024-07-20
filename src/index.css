@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f5ba13;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5ba13;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+  }
+  
+  .note {
+    background: white;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px #ccc;
+    margin: 16px;
+    padding: 16px;
+    width: 240px;
+    float: left;
+  }
+  
+  .note h1 {
+    font-size: 1.1em;
+    margin: 0 0 10px 0;
+  }
+  
+  .note p {
+    margin: 0;
+  }
+  
+  .note button {
+    background: #f5ba13;
+    border: none;
+    color: white;
+    cursor: pointer;
+    float: right;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .note button:hover {
+    background: #e8a317;
+  }
+  
